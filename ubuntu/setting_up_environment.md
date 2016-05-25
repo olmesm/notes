@@ -6,7 +6,8 @@ Make sure to setup your terminal to [run command as login shell](http://askubunt
 
 > Open a new terminal session by pressing `ctrl` + `alt` + `T`.
 
-Navigate to `Menu > Edit > Profile Preferences > Command` and then select the checkbox  to `☑ Run command as a login shell`
+Navigate to `Menu` > `Edit` > `Profile Preferences` > `Command`.<br>
+Select the checkbox ☑ `Run command as a login shell`
 
 > In terminal, copying is done with `ctrl` + `shift` + `C` <br>
 Paste is done with `ctrl` + `shift` + `P`
