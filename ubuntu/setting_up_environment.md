@@ -111,9 +111,9 @@ $ atom
 
 Press `ctrl` + `,` to open the preferences.
 
-* ☑ Show indent guide
-* ☑ Show invisibles
-* ☑ Soft tabs
+* ☑ `Show indent guide`
+* ☑ `Show invisibles`
+* ☑ `Soft tabs`
 * Set `Tab Type` to `soft`
 
 ## Get Chrome
@@ -123,3 +123,31 @@ $ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 $ sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
 $ sudo apt-get install -f
 ```
+
+#### Chrome Preferences
+
+Press `alt` + `f` then press `s` to open the preferences.
+
+Under the heading `Appearance`
+* `Use GTK+ Theme`
+* ☑ `Use system title bar and borders`
+
+
+## Slack
+
+Slack doesn't currently support linux, so we will use ScudCloud instead.
+
+You can actually choose from a variety or IM clients, however ScudCloud feels exactly like Slack.
+
+```
+sudo apt-add-repository -y ppa:rael-gc/scudcloud
+sudo apt-get update
+sudo apt-get install scudcloud
+```
+
+#### ScudCloud Preferences
+
+Open `File` and select  `☑ Close to Tray`
+
+## Resources
+* [Setup Slack on Ubuntu](http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/)
