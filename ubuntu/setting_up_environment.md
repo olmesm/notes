@@ -1,11 +1,15 @@
 # Setup Ubuntu 16.04 for development
 
-## Get Chrome
-```
-$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-$ sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
-$ sudo apt-get install -f
-```
+## Run as login shell
+
+Make sure to setup your terminal to [run command as login shell](http://askubuntu.com/questions/333446/what-does-run-command-as-a-login-shell-do).
+
+> Open a new terminal session by pressing `ctrl` + `alt` + `T`.
+
+Navigate to `Menu > Edit > Profile Preferences > Command` and then select the checkbox  to `☑ Run command as a login shell`
+
+> In terminal, copying is done with `ctrl` + `shift` + `C` <br>
+Paste is done with `ctrl` + `shift` + `P`
 
 ## Setup dependancies
 
@@ -13,6 +17,11 @@ $ sudo apt-get install -f
 $ sudo apt-get update
 $ sudo apt-get install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties libffi-dev ruby-dev
 $ sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev liblzma-dev libgmp-dev
+```
+
+## Get RVM
+
+```
 $ curl -L https://get.rvm.io | bash -s stable
 ```
 
@@ -44,11 +53,14 @@ $ git config --global color.ui true
 $ git config --global user.name "USERNAME"
 $ git config --global user.email "USERNAME@EMAIL.COM"
 ```
+
 Generate key
+
 ```
 $ ssh-keygen -t rsa -C "USERNAME@EMAIL.COM"
 $ cat ~/.ssh/id_rsa.pub
 ```
+
 Copy the text you see in terminal that looks like
 
 ```
@@ -56,17 +68,20 @@ ssh-rsa xxxxxxxxxxxxxxxxxxxxxx USERNAME@EMAIL.COM
 ```
 
 Check all is ok
+
 ```
 $ ssh -T git@github.com
 ```
 
 ## Setup Heroku
+
 ```
 $ wget -O- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 $ heroku login
 ```
 
 ## Setup Homebrew
+
 ```
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
 $ sudo apt-get install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev
@@ -90,4 +105,21 @@ $ sudo add-apt-repository ppa:webupd8team/atom
 $ sudo apt-get update
 $ sudo apt-get install atom
 $ atom
+```
+
+#### Atom preferences
+
+Press `ctrl` + `,` to open the preferences.
+
+* ☑ Show indent guide
+* ☑ Show invisibles
+* ☑ Soft tabs
+* Set `Tab Type` to `soft`
+
+## Get Chrome
+
+```
+$ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+$ sudo dpkg -i --force-depends google-chrome-stable_current_amd64.deb
+$ sudo apt-get install -f
 ```
