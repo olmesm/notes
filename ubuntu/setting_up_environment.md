@@ -83,6 +83,8 @@ $ heroku login
 
 ## Setup Homebrew
 
+Rails requires node.
+
 ```
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
 $ sudo apt-get install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev
@@ -90,6 +92,16 @@ $ echo 'export PATH="$HOME/.linuxbrew/bin:$PATH" export MANPATH="$HOME/.linuxbre
 $ echo 'export PATH="~/.linuxbrew/bin:$PATH"' >> ~/.bash_profile
 $ sudo apt install linuxbrew-wrapper
 $ brew doctor
+$ brew install node
+```
+This last command will take 10 minutes or longer.
+As long as it sits on “make install” it’s ok – don’t worry, close or touch anything until it completes.
+
+Once complete:
+
+```
+node -v
+npm -v
 ```
 
 ## Install vim

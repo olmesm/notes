@@ -6,6 +6,11 @@ Update your package lists and install.
 $ sudo apt-get update
 $ sudo apt-get install postgresql
 ```
+Get Dependancies
+```
+$ sudo apt-get install libpq-dev
+```
+
 Postgresql creates a default user and db called postgres. Login as postgres.
 
 ```
@@ -59,3 +64,8 @@ host    all             all             127.0.0.1/32            trust
 ```
 
 Finally save and logout.
+
+
+## Resources:
+
+* [Rails and pg gem issues](http://stackoverflow.com/a/20754173)
