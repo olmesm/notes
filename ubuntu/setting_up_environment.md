@@ -78,8 +78,8 @@ $ brew doctor
 
 ## Install vim
 
-$ sudo apt-get update
 ```
+$ sudo apt-get update
 $ sudo apt-get install vim
 ```
 
