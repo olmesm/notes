@@ -1,6 +1,6 @@
 # Rails
 
-Get rails
+Get Rails for your local machine.
 
 ```
 $ gem install rails
@@ -13,6 +13,31 @@ To start a new rails project:
 ```
 $ rails new «APP_NAME» -d postgresql -T
 ```
+
+## Setup Rspec in Rails
+
+Add to bottom of gemfile
+
+```
+group :test do
+  gem 'rspec-rails'
+  gem 'capybara'
+end
+```
+
+Run bundler and then initialize rspec.
+
+```
+$ bundle
+$ bin/rails generate rspec:install
+```
+
+Add the following require statement below the other require statements in spec/rails_helper.rb
+
+```
+require 'capybara/rails'
+```
+
 
 ## Resources
 
