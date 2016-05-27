@@ -38,6 +38,15 @@ Add the following require statement below the other require statements in spec/r
 require 'capybara/rails'
 ```
 
+## Generating MVC
+
+```
+# Generate Controller
+$ bin/rails g controller OBJECT_NAME(PLURAL)
+
+# Generate Model
+$ bin/rails g model OBJECT_NAME(SINGULAR) OBJECT_PROPERTY_1:string OBJECT_PROPERTY_2:text
+```
 
 ## Resources
 
