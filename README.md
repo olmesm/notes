@@ -9,4 +9,4 @@ Within this repo you will find how-to's to setup a new dev environment.
 Below are some great ubuntu/linux resources
 
 * [OMG Ubuntu!](http://www.omgubuntu.co.uk/)
-* [Go Rails Dev Tut](https://gorails.com/setup/ubuntu/16.04)
+* [Go Rails Ubuntu Dev Setup](https://gorails.com/setup/ubuntu/16.04)
