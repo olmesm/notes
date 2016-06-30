@@ -6,7 +6,7 @@ Get Rails for your local machine.
 $ gem install rails
 ```
 
-Make sure [Postgresql is Setup](/blob/master/ubuntu/postgresql.md)
+Make sure [Postgresql is Setup](/postgresql.md)
 
 To start a new rails project:
 
