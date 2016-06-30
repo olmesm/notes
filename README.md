@@ -10,3 +10,9 @@ Below are some great ubuntu/linux resources
 
 * [OMG Ubuntu!](http://www.omgubuntu.co.uk/)
 * [Go Rails Ubuntu Dev Setup](https://gorails.com/setup/ubuntu/16.04)
+* [Ubuntu and Linux](http://www.linuxandubuntu.com/)
+* [](https://linuxjourney.com/?utm_source=omgubuntu)
+
+
+
+* [PSQL FizzBuzz](https://hashrocket.com/blog/posts/understanding-common-table-expressions-with-fizzbuzz)
