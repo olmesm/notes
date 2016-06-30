@@ -93,7 +93,7 @@ We do this as [Menus are semantic groupings of links](http://www.lynda.com/HTML-
 </nav>
 ```
 
-## More on Nesting structures
+## Nesting structures
 
 Comments on an article should fall under a new `<section>`.
 
@@ -108,17 +108,66 @@ If we had to extract the following:
   <h3>Complexity</h3>
   <section class="comments">
     <h2>Comments</h2>
-    <h3>Joe Bloggs</h3>
-    <p>
-      Great post!
-    </p>
+    <article class="comment">
+      <h3>Joe Bloggs</h3>
+      <p>
+        Great post!
+      </p>
+    </article>
   </section>
 </article>
 ```
 
-An article within an article would not be as semantically meaningful as a comment section for the artcle.
+An `<article>` within an `<article>` would not be as semantically meaningful as a comment `<section>` for the `<article>`.
 
+However, each comment could and should be considered as an article.
 
+## `<header>` explained
+
+[A header typically contains a group "of introductory or navigational aids.](https://www.w3.org/TR/html5/sections.html#the-header-element)
+
+The title of the article, along with the posting information can be grouped as a header as it fufils the above statement - it represents introductory content.
+
+Notice the comment section. It contains the section title, info on how to post a comment and the comments. The title and info on how to post a comment are grouped as the header for the comment section.
+
+The comment itself only consists of one heading - the `<header>` is therefore not necessary as it adequately represents itself.
+
+```
+<article class="post">
+  <header>
+    <h2>My first blog!</h2>
+    <p>Posted today at 1pm.</p>
+    <p>By <a href="#">me</a>.</p>
+  </header>
+  <p>
+    this is my first blog post - Hello World!
+  </p>
+  <section class="comments">
+    <header>
+      <h2>Comments</h2>
+      <p>
+        Either <a href="#">sign up</a> or <a href="#">sign in</a> to post a comment.
+      </p>
+    </header>
+    <article class="comment">
+      <h3>Comment by Joe Bloggs</h3>
+      <p>
+        Great article!
+      </p>
+    </article>
+  </section>
+</article>
+```
+
+## Checking Structure
+
+Cna be done with the use of HTML5 outliner tools.
+
+* [Online tool](https://gsnedders.html5.org/outliner/)
+
+* [Heading map for Chrome](https://chrome.google.com/webstore/detail/headingsmap/)
+
+Content should appear as a table of contents that represents the structure you want the page to appear.
 
 ## Resources
 * [Lynda.com HTML5 structure, syntax and semantics course](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html).
