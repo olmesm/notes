@@ -169,6 +169,10 @@ Cna be done with the use of HTML5 outliner tools.
 
 Content should appear as a table of contents that represents the structure you want the page to appear.
 
+## TBC
+
+Up to http://www.lynda.com/HTML-tutorials/Working-figure-figcaption/182177/370825-4.html
+
 ## Resources
 * [Lynda.com HTML5 structure, syntax and semantics course](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html).
 * [W3 Standards Index/Overview](https://www.w3.org/TR/html-markup/Overview.html#toc)
