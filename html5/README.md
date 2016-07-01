@@ -159,6 +159,15 @@ The comment itself only consists of one heading - the `<header>` is therefore no
 </article>
 ```
 
+## `<main>` explained
+
+Indicates to devices the main content of the page. Focussed for assistive reader devices and could be used more in the future.
+
+## `<footer>` explained
+
+Similar to header. Can be used in multiple places within the page.
+Could also be used within a quote to reference the author.
+
 ## Checking Structure
 
 Cna be done with the use of HTML5 outliner tools.
@@ -169,9 +178,104 @@ Cna be done with the use of HTML5 outliner tools.
 
 Content should appear as a table of contents that represents the structure you want the page to appear.
 
-## TBC
+## `<figure>` and `<figcaption>` explained
 
-Up to http://www.lynda.com/HTML-tutorials/Working-figure-figcaption/182177/370825-4.html
+Both tags are more semantic than structural.
+
+`<figure>` can be any media the represents the content around it in some way - not necessarily restricted to images. Could also enclose more than one item as it is a structural tag.
+
+`<figcaption>` is a child element of the `<figure>`. It is the caption associated with the figure.
+
+## `<aside>` explained
+
+Tangentially related content. Think of an authors side notes within an article.
+`<aside>` is not to represent side-bar menu.
+
+## `<div>` is frowned upon now
+
+["The div element has no special meaning at all. It represents its children."
+
+"Authors are strongly encouraged to view the div element as an element of last resort, for when no other element is suitable. Use of more appropriate elements instead of the div element leads to better accessibility for readers and easier maintainability for authors."](https://www.w3.org/TR/html5/grouping-content.html#the-div-element)
+
+Use as a last resort, JavaScript or for styling sake.
+
+## `<dl> <dt> <dd>` Definition Lists
+
+Definition lists are a list of terms and a definition for one of more of the terms.
+
+"Name-value groups may be terms and definitions, metadata topics and values, questions and answers, or any other groups of name-value data"
+
+An example:
+
+```
+<h1>List of Schools</h1>
+<dl class="school-list">
+  <dt>London</dt>
+  <dd>School 1</dd>
+  <dd>School 2</dd>
+  <dd>School 3</dd>
+
+  <dt>Manchester</dt>
+  <dd>School 4</dd>
+  <dd>School 5</dd>
+</dl>
+```
+
+## Emphasizing text
+
+`<i>` - Italics
+Represents an alternate voice, mood or language.
+
+`<em>` - Emphasis
+Represents stressed emphasis of its contents.
+
+`<b>` - Bold
+Text where attention is to be drawn to the text but no extra importance is to be placed. Think keywords, or product names in a review.
+
+`<strong>` - Strong
+Strong importance. Seriousness or urgency.
+
+W3 does not mention that any of the above tags should display their contents differently, the reader will interpret this. You should use CSS for this.
+
+## `<blockquote>`, `<q>` and `<cite>`
+
+Formatting tags within `<blockquote>` doesn't have any effect on the document outline.
+
+`<q>` is to include quotation marks.
+`<cite>` is the reference to the author.
+
+```
+<blockquote>
+  <q>I really like Ruby on Rails.</q>
+  <footer>
+    <cite><span class="author">Joe Bloggs</span> - We designer</cite>
+    <!-- could also include contact info her for author - not related to the autor quote -->
+  </footer>
+</blockquote>
+```
+
+## `<address>`
+
+`<address>` wraps the contact information related to the publisher or author of the article or document.
+
+Should be narrowed focus for the author - not necessarily the address of the company as the `<address>` is not intended to contain other structure tags.
+
+## `<small>`
+
+Intended for small print - still important text. Should not be used for long runs of text.
+Think page copyright.
+
+## `<mark>`
+
+Used to highlight information within quotes or a paragraph which the author did not originally intend to bring attention to.
+
+If searching text in a webpage your brower will use `<mark>` to highlight the words searched for.
+
+## `<time>`
+
+TBC
+
+
 
 ## Resources
 * [Lynda.com HTML5 structure, syntax and semantics course](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html).
