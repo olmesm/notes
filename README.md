@@ -12,6 +12,7 @@ Below are some great great resources
 
 * [Free code camp](https://www.freecodecamp.com)
 * [Tutorial Organizer](https://hackr.io)
+* [Best description of what the DOM is](https://www.youtube.com/watch?v=jW0tv2BnRoY)
 
 ### Linux/Ubuntu
 

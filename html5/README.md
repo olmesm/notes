@@ -35,7 +35,7 @@ An article *could* have sections within it, showing relation to the top level to
 * header
 * main
 
-See [HTML5 structuring](./notes/html5-structuring.html) notes
+See [HTML5 structuring](./examples/html5-structuring.html) notes
 
 ## Step-by-step creating basic structure of HTML page
 
