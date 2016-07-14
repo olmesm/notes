@@ -10,7 +10,7 @@ Navigate to `Menu` > `Edit` > `Profile Preferences` > `Command`.<br>
 Select the checkbox ☑ `Run command as a login shell`
 
 > In terminal, copying is done with `ctrl` + `shift` + `C` <br>
-Paste is done with `ctrl` + `shift` + `P`
+Paste is done with `ctrl` + `shift` + `v`
 
 ## Setup dependancies
 
@@ -23,24 +23,17 @@ $ sudo apt-get install libgdbm-dev libncurses5-dev automake libtool bison libffi
 ## Get RVM
 
 ```
-$ curl -L https://get.rvm.io | bash -s stable
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+curl -sSL https://get.rvm.io | bash -s stable
+source ~/.rvm/scripts/rvm
+rvm install 2.3.1
+rvm use 2.3.1 --default
+ruby -v
 ```
 
-This will error - copy all the text in the error message regarding the gpg key and then paste to add the key.
+Some ruby binaries are not available for certain OS's.
 
-```
-$ gpg2 --keyserver hkp://keys.gnupg.net --recv-keys xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-```
-
-then continue
-
-```
-$ curl -L https://get.rvm.io | bash -s stable
-$ source ~/.rvm/scripts/rvm
-$ rvm install 2.2.2
-$ rvm use 2.2.2 --default
-$ ruby -v
-```
+You can see a [list of binaries available here](http://rvm.io/binaries/).
 
 ```
 $ echo "gem: --no-ri --no-rdoc" > ~/.gemrc
@@ -89,7 +82,7 @@ Rails requires node.
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
 $ sudo apt-get install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev
 $ echo 'export PATH="$HOME/.linuxbrew/bin:$PATH" export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH" export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"' >> ~\bash.rc
-$ echo 'export PATH="~/.linuxbrew/bin:$PATH"' >> ~/.bash_profile
+$ echo 'export PATH="~/.linuxbrew/bin:$PATH" export PATH="~/.linuxbrew/bin:$PATH"' >> ~/.bash_profile
 $ sudo apt install linuxbrew-wrapper
 $ brew doctor
 $ brew install node
@@ -164,3 +157,4 @@ Open `File` and select  `☑ Close to Tray`
 
 ## Resources
 * [Setup Slack on Ubuntu](http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/)
+* [Go Rails ubuntu guide](https://gorails.com/setup/ubuntu/16.04)

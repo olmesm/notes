@@ -1,6 +1,6 @@
 # Welcome!
 
-Ubuntu is a great OS to begin playing around with linux and development in general.
+If you dont have a mac Ubuntu is a great OS to begin playing around with linux and development in general.
 
 Within this repo you will find how-to's to setup a new dev environment.
 
@@ -11,9 +11,11 @@ Below are some great great resources
 ### Developer resources
 
 * [Free code camp](https://www.freecodecamp.com)
+* [JavaScript, Git, Node, NPM, etc](http://nodeschool.io/)
 * [Tutorial Organizer](https://hackr.io)
 * [Best description of what the DOM is](https://www.youtube.com/watch?v=jW0tv2BnRoY)
 * [Node vs PHP Performance](https://www.webcodegeeks.com/web-development/php-vs-node-js-the-real-statistics/)
+* [CSS](http://www.cssscript.com/)
 
 ### Linux/Ubuntu
 
@@ -21,8 +23,14 @@ Below are some great great resources
 * [OMG Ubuntu!](http://www.omgubuntu.co.uk/)
 * [Go Rails Ubuntu Dev Setup](https://gorails.com/setup/ubuntu/16.04)
 * [Ubuntu and Linux](http://www.linuxandubuntu.com/)
-* [](https://linuxjourney.com/?utm_source=omgubuntu)
+* [Learn Linux Fu](https://linuxjourney.com/?utm_source=omgubuntu)
 
 ### Databases
 
 * [PSQL FizzBuzz](https://hashrocket.com/blog/posts/understanding-common-table-expressions-with-fizzbuzz)
+
+
+### News Sites
+
+* [Hacker News](http://hackernews.com)
+* []()
