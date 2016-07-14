@@ -21,6 +21,7 @@ Below are some great great resources
 
 * [Linux Basics - Very Good](https://thenewboston.com/videos.php?cat=357)
 * [OMG Ubuntu!](http://www.omgubuntu.co.uk/)
+* [WebUpd8 is an Ubuntu / Linux blog](http://www.webupd8.org/)
 * [Go Rails Ubuntu Dev Setup](https://gorails.com/setup/ubuntu/16.04)
 * [Ubuntu and Linux](http://www.linuxandubuntu.com/)
 * [Learn Linux Fu](https://linuxjourney.com/?utm_source=omgubuntu)

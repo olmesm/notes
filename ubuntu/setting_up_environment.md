@@ -155,6 +155,18 @@ sudo apt-get install scudcloud
 
 Open `File` and select  `☑ Close to Tray`
 
+## Nemo
+
+Awesome featured file manager for ubuntu.
+
+[Check out the full features and description here.](http://www.webupd8.org/2013/10/install-nemo-with-unity-patches-and.html)
+
+```
+sudo add-apt-repository ppa:webupd8team/nemo
+sudo apt-get update
+sudo apt-get install nemo nemo-fileroller
+```
+
 ## Resources
 * [Setup Slack on Ubuntu](http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/)
 * [Go Rails ubuntu guide](https://gorails.com/setup/ubuntu/16.04)
