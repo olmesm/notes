@@ -1,4 +1,5 @@
-# Welcome!
+# Welcome! ![alt text](http://ubuntulovers.com/asset/img/UbuntuLovers-stickers.png)
+
 
 If you dont have a mac Ubuntu is a great OS to begin playing around with linux and development in general.
 
@@ -16,6 +17,9 @@ Below are some great great resources
 * [Best description of what the DOM is](https://www.youtube.com/watch?v=jW0tv2BnRoY)
 * [Node vs PHP Performance](https://www.webcodegeeks.com/web-development/php-vs-node-js-the-real-statistics/)
 * [CSS](http://www.cssscript.com/)
+* [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
+
+* [Exercism - practice problems in 30 different languages](http://exercism.io/)
 
 ### Linux/Ubuntu
 

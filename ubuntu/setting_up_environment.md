@@ -167,6 +167,10 @@ sudo apt-get update
 sudo apt-get install nemo nemo-fileroller
 ```
 
+## More
+
+[Webupd8 guide for Ubuntu 16.04](http://www.webupd8.org/2016/04/things-to-do-after-installing-ubuntu-1604-lts-xenial-xerus.html)
+
 ## Resources
 * [Setup Slack on Ubuntu](http://www.makeuseof.com/tag/linux-loving-slack-users-heres-an-app-for-you/)
 * [Go Rails ubuntu guide](https://gorails.com/setup/ubuntu/16.04)
