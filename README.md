@@ -20,6 +20,7 @@ Below are some great great resources
 * [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
 
 * [Exercism - practice problems in 30 different languages](http://exercism.io/)
+* [Quick CSS Selector tutorial](http://flukeout.github.io/)
 
 ### Linux/Ubuntu
 
