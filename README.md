@@ -11,6 +11,7 @@ Below are some great great resources
 
 ### Developer resources
 
+* [Thinkster.io - Rails NG and MEAN](https://thinkster.io/)
 * [Free code camp](https://www.freecodecamp.com)
 * [JavaScript, Git, Node, NPM, etc](http://nodeschool.io/)
 * [Tutorial Organizer](https://hackr.io)
@@ -21,6 +22,8 @@ Below are some great great resources
 * [Youtube - Levelup tuts](https://www.youtube.com/user/LevelUpTuts/videos)
 
 * [Exercism - practice problems in 30 different languages](http://exercism.io/)
+* [Quick CSS Selector tutorial](http://flukeout.github.io/)
+* [Git situations in Laymans](http://ohshitgit.com/)
 
 ### Linux/Ubuntu
 
