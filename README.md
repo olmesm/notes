@@ -18,6 +18,7 @@ Below are some great great resources
 * [Node vs PHP Performance](https://www.webcodegeeks.com/web-development/php-vs-node-js-the-real-statistics/)
 * [CSS](http://www.cssscript.com/)
 * [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
+* [Youtube - Levelup tuts](https://www.youtube.com/user/LevelUpTuts/videos)
 
 * [Exercism - practice problems in 30 different languages](http://exercism.io/)
 
