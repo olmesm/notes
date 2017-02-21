@@ -25,6 +25,17 @@ Below are some great great resources
 * [Quick CSS Selector tutorial](http://flukeout.github.io/)
 * [Git situations in Laymans](http://ohshitgit.com/)
 
+
+* [Sloppy.io - cheap CaaS for an app (€5 pm for 5 containers)](https://sloppy.io/)
+* [Freenom - Free domains for showing or testing out an app](http://freenom.com)
+* [xip.io - Wild card DNS for ip's](http://www.xip.io/)
+* [c9.io](http://c9.io)
+* [Surge.sh - super quick CLI site deploy](http://surge.sh)
+* [Netlify - Like surge, but CI and more powerful. Not as quick to setup](http://netlify.com)
+
+* [dply - 2hrs free container service PAYG after time limit](https://dply.co/)
+* [Free dev resources](https://github.com/ripienaar/free-for-dev)
+
 ### Linux/Ubuntu
 
 * [Linux Basics - Very Good](https://thenewboston.com/videos.php?cat=357)
