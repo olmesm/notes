@@ -1,3 +1,5 @@
+# Some links may be broken. In the process of re-writing.
+
 # Welcome! ![alt text](http://ubuntulovers.com/asset/img/UbuntuLovers-stickers.png)
 
 
