@@ -1,6 +1,6 @@
 # HTML5 Notes
 
-These are note made while doing the [Lynda.com HTML5 structure, syntax and semantics course](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html).
+These are notes made while doing the [Lynda.com HTML5 structure, syntax and semantics course](https://www.lynda.com/HTML-tutorials/HTML5-Structure-Syntax-Semantics/182177-2.html).
 
 The purpose of HTML5 is to allow for more semantic meaning in content on the web.
 
