@@ -1,6 +1,6 @@
 # Wifi issues
 
-I've had issues with my wifi not connecting after coming out of hibernation. I solved my issues as follows.
+I've had issues with my Lenovo B50-30 wifi not connecting after coming out of hibernation. I solved my issues as follows.
 
 In your terminal:
 
