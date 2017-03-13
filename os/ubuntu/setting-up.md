@@ -1,13 +1,20 @@
 # Setting up a new Ubuntu Install
 
+1. Run terminal as login shell
 
+    > Open a new terminal session by pressing `ctrl` + `alt` + `T`.
+
+    Navigate to `Menu` > `Edit` > `Profile Preferences` > `Command`.<br>
+    Select the checkbox ☑ `Run command as a login shell`
+
+    > In terminal, copying is done with `ctrl` + `shift` + `C` <br>
+    Paste is done with `ctrl` + `shift` + `v`
 
 1. Get basics for RVM and Linuxbrew.
 
     ```bash
     sudo apt-get install build-essential curl git python-setuptools -y
     ```
-
 
 1. [RVM](https://rvm.io/)
 
@@ -31,13 +38,11 @@
     echo "fpath=(/home/buntu/.linuxbrew/share/zsh-completions $fpath)" >> .zshrc
     ```
 
-    Use ZSH
+    Shell to Use ZSH
 
     ```bash
     chsh -s /usr/local/bin/zsh
     ```
-
-    Close terminal and open iterm.
 
 1. [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 
@@ -65,7 +70,7 @@
     PROMPT='${ret_status} %{$fg[cyan]%}%~%{$reset_color%} $(git_prompt_info)'
     ```
 
-1. iTerm Keybindings
+<!-- 1. iTerm Keybindings
 
     Keybindings for moving between words and lines using CMD and alt.
 
@@ -114,4 +119,4 @@
     npm i -g surge tree live-server devtool nodemon
     ```
 
-    This was generated with `npm list -g --depth=0`
+    This was generated with `npm list -g --depth=0` -->
