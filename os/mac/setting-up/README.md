@@ -20,6 +20,7 @@
 
     ```bash
     brew install zsh zsh-completions iterm2
+    brew cask install iterm2
     ```
 
     Use ZSH

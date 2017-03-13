@@ -1,4 +1,4 @@
-# Make and Ubuntu Virtual Machine
+# Making a Virtual Machine
 
 **Please ensure you read notes at bottom.**
 
