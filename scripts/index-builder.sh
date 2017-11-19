@@ -2,13 +2,8 @@
 
 ENTRY_DIR=$1;
 
-listDirectories() {
-  ls -d $1*/ 2> /dev/null
-}
-
 makeIndexFile() {
   echo "building Index for $1"
-  echo "## Index \n" > $1/_index.md
 
   ls $1 --ignore=_* | while read entry
     do
@@ -20,15 +15,9 @@ makeIndexFile() {
       
       echo "- [$NAME](./$FILE_PATH)" >> $1/_index.md
   done
+
+  # end with newline
+  echo "" >> $1/_index.md
 }
 
-makeIndexes() {
-  makeIndexFile $1
-    
-  listDirectories $1 | while read x
-  do
-    makeIndexes $x;
-  done
-}
-
-makeIndexes $ENTRY_DIR;
+makeIndexFile $ENTRY_DIR;

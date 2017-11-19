@@ -8,6 +8,8 @@ DOCKER_COMMAND="docker run
   sh /scripts/make-tree.sh";
 
 if [ $(uname -s) = "Linux" ];
-  then sudo $DOCKER_COMMAND
+  then 
+    echo "\n\nYou'll need to enter your password to run docker\n";
+    sudo $DOCKER_COMMAND
   else $DOCKER_COMMAND
 fi
